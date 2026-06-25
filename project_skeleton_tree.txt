@@ -1,0 +1,100 @@
+vision_career_mobile/
+|-- .gitignore
+|-- .metadata
+|-- analysis_options.yaml
+|-- pubspec.lock
+|-- pubspec.yaml
+|-- README.md
+|-- vision_career_mobile.iml
+|-- vision_career_quiz_setup.txt
+|-- assets/
+|   |-- data/
+|   |   `-- vision_career_phase1_phase2_master_dataset_rebuilt.json
+|   |-- icons/
+|   |   `-- .gitkeep
+|   |-- images/
+|   |   `-- .gitkeep
+|   `-- json/
+|       |-- .gitkeep
+|       |-- it_subject_graph.xlsx
+|       |-- vision_career_phase1_phase2_dataset.json
+|       `-- vision_career_phase1_phase2_dataset.xlsx
+`-- lib/
+    |-- app/
+    |   |-- app.dart
+    |   |-- routes.dart
+    |   `-- theme.dart
+    |-- core/
+    |   |-- constants/
+    |   |   |-- gemini_quiz_config.dart
+    |   |   `-- vertex_search_config.dart
+    |   |-- services/
+    |   |   |-- auth_service.dart
+    |   |   |-- career_llm_service.dart
+    |   |   |-- career_phase3_builder.dart
+    |   |   |-- career_storage_service.dart
+    |   |   |-- gemini_image_quiz_service.dart
+    |   |   |-- gemini_quiz_service.dart
+    |   |   |-- learning_resource_cache_service.dart
+    |   |   |-- phase0_gemini_service.dart
+    |   |   |-- phase0_mapping_service.dart
+    |   |   |-- phase0_session_service.dart
+    |   |   |-- progress_service.dart
+    |   |   |-- quiz_attempt_limit_service.dart
+    |   |   |-- quiz_screen_security_service.dart
+    |   |   |-- user_profile_service.dart
+    |   |   `-- vertex_learning_resource_service.dart
+    |   `-- utils/
+    |       |-- path_generator.dart
+    |       `-- quiz_achievement_builder.dart
+    |-- data/
+    |   |-- datasources/
+    |   |   `-- subject_local_datasource.dart
+    |   |-- models/
+    |   |   |-- image_quiz_models.dart
+    |   |   |-- learning_resource_model.dart
+    |   |   |-- quiz_attempt_result_model.dart
+    |   |   |-- quiz_models.dart
+    |   |   |-- quiz_question_model.dart
+    |   |   `-- subject_model.dart
+    |   `-- repositories/
+    |       `-- subject_repository.dart
+    |-- features/
+    |   |-- auth/
+    |   |   |-- auth_gate.dart
+    |   |   |-- login_screen.dart
+    |   |   `-- register_screen.dart
+    |   |-- career/
+    |   |   |-- career_selection_screen.dart
+    |   |   |-- career_summary_screen.dart
+    |   |   |-- job_selection_screen.dart
+    |   |   `-- phase3_path_screen.dart
+    |   |-- college_selection/
+    |   |   `-- college_selection_screen.dart
+    |   |-- common/
+    |   |   `-- widgets/
+    |   |       `-- app_drawer.dart
+    |   |-- path_view/
+    |   |   `-- path_view_screen.dart
+    |   |-- phase0/
+    |   |   |-- fit_chat_screen.dart
+    |   |   |-- fit_questions_screen.dart
+    |   |   |-- fit_quiz_screen.dart
+    |   |   |-- fit_result_screen.dart
+    |   |   |-- know_what_i_want_screen.dart
+    |   |   |-- phase0_home_screen.dart
+    |   |   `-- specialty_recommendation_screen.dart
+    |   |-- profile/
+    |   |   `-- profile_screen.dart
+    |   |-- quiz/
+    |   |   |-- mage_quiz_widget.dart
+    |   |   |-- mcq_quiz_widget.dart
+    |   |   |-- widgets/
+    |   |   |   |-- image_quiz_widget.dart
+    |   |   |   `-- subject_completion_quiz_sheet.dart
+    |   |   `-- writing_quiz_widget.dart
+    |   |-- specialization_selection/
+    |   |   `-- specialization_selection_screen.dart
+    |   `-- subject_details/
+    |       `-- subject_details_screen.dart
+    `-- main.dart
