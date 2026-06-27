@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "353332253113",
+    "project_id": "careervision-44420",
+    "storage_bucket": "careervision-44420.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353332253113:android:8b9793cb15cb645d01a668",
+        "android_client_info": {
+          "package_name": "com.example.vision_career_mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlJ7VGD5rGV_c8Xbbc4TjOTE-NCtBLrjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
